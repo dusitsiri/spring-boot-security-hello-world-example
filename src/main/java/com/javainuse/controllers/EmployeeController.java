@@ -21,7 +21,7 @@ public class EmployeeController {
 	public String newEmployee(Employee employee) {
 
 		employeeData.save(employee);
-		return ("redirect:/listEmployees.html");
+		return ("redirect:/list.html");
 
 	}
 

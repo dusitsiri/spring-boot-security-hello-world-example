@@ -1,9 +1,5 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+spring.mvc.view.prefix:/WEB-INF/jsp/
+spring.mvc.view.suffix:.jsp
 
-<h1>Employees page</h1>
-
-<ul>
-<c:forEach items="" var="employee">
-   <li></li>
-</c:forEach>
-</ul>
+spring.datasource.url=jdbc:h2:file:./DB
+spring.jpa.properties.hibernate.hbm2ddl.auto=update
